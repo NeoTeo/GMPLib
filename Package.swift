@@ -1,5 +1,6 @@
 import PackageDescription
 
 let package = Package(
-    name: "GMPLib"
+    name: "GMPLib",
+    pkgConfig: "libgmp"
 )
